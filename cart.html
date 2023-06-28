@@ -1,0 +1,7 @@
+{% for order in orders %}
+    <div>
+        <h3>{{ order.product.name }}</h3>
+        <p>Quantity: {{ order.quantity }}</p>
+        <p>Price: {{ order.product.price }}</p>
+    </div>
+{% endfor %}

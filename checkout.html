@@ -1,0 +1,5 @@
+<form method="POST" action="{% url 'checkout' %}">
+    {% csrf_token %}
+    <!-- Collect shipping information and payment details -->
+    <button type="submit">Checkout</button>
+</form>
